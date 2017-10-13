@@ -5,6 +5,7 @@ project(hector_quadrotor_gazebo_plugins)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS roscpp hector_gazebo_plugins hector_quadrotor_model geometry_msgs hector_uav_msgs dynamic_reconfigure)
+#find_package(catkin REQUIRED COMPONENTS roscpp hector_quadrotor_model geometry_msgs hector_uav_msgs dynamic_reconfigure)
 include_directories(include ${catkin_INCLUDE_DIRS})
 
 # Depend on system install of Gazebo
@@ -119,4 +120,3 @@ install(DIRECTORY include/${PROJECT_NAME}/
 #   # myfile2
 #   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 # )
-

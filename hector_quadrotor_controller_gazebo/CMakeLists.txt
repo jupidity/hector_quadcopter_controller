@@ -4,6 +4,7 @@ project(hector_quadrotor_controller_gazebo)
 find_package(catkin REQUIRED COMPONENTS
   gazebo_ros_control
   hector_quadrotor_interface
+  tf2_geometry_msgs
 )
 include_directories(include ${catkin_INCLUDE_DIRS})
 
